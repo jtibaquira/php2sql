@@ -16,10 +16,22 @@
     </div>
     <div class="main">
       <table border="0" cellspacing="5" cellpadding="5">
-        <tr><th>Header</th></tr>
-        <tr><td>Data</td></tr>
-        <a href="index.html">Atras</a>
+        <tr>
+            <th>Nº</th>
+            <th>Enunciado del Ejercicio</th>
+            <th>SQL</th>
+            <th>ejecutar</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Data</td>
+            <form action="ejercicio01.php" method="get" accept-charset="utf-8">
+            <td><input type="text" name="sql" value="inserte el sql que desea ejecutar" id="sql"></td>
+            <td><p><input type="submit" value="enviar"></p></td>
+            </form>
+        </tr>
       </table>
+      <a href="index.html">Atras</a>
     </div>
     <div class="footer">
       <h5> Derechos reservados </h5>
