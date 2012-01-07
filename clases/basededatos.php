@@ -23,10 +23,10 @@ class basededatos
    **********************************/
    function basededatos ()
    {
-      $this->bda_hostserver = "127.0.0.1";
-      $this->bda_nombre = "videotienda";
-      $this->bda_usuario = "root";
-      $this->bda_contrasena = "s1m3l3m0nt0l0m30";
+      $this->bda_hostserver = "";
+      $this->bda_nombre = "";
+      $this->bda_usuario = "";
+      $this->bda_contrasena = "";
    }
 
    /**********************************
